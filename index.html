@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leandro Moyano | Integrador </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/48a799e1cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Buscar...</button>
+            <div id="myDropdown" class="dropdown-content">
+              <input type="text" placeholder="Buscar..." id="myInput" onkeyup="filterFunction()">
+              <a href="./index.html">Inicio</a>
+              <a href="./info.html">Información</a>
+              <a href="./registro.html">Registrarse</a>
+              <a href="#contact">Contacto</a>
+            </div>
+          </div>
+        <div class="textos">
+            <h1 class="titulo">Space-Cod</h1>
+            <h3 class="subtitulo">Espacio | Tiempo | Imagenes </h3>
+            <!-- <a href="#" class="boton">ingresar</a> -->
+        </div>
+        <div class="sesgoabajo"></div>
+    </header>
+    <main>
+        <section class="acerca-de">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Nuevas Imagenes</h2>
+                <h3 class="slogan">Capturadas por el telescopio James Webb</h3>
+                <p class="parrafo">El telescopio infrarrojo, que demandó 9.000 millones de dólares,
+                    se lanzó el 25 de diciembre de 2021 y fue construido por el gigante aeroespacial Northrop Grumman Corp.
+                    por encargo de la NASA. El observatorio llegó a su destino en la órbita solar a 1,5 millones de kilómetros de la Tierra
+                    un mes después. </p>
+                <p class="parrafo">La NASA seleccionó una primera tanda de fotos, que tardó semanas en ser procesada a partir de los datos en bruto recogidos por el Webb,
+                    para mostrar las capacidades del telescopio.
+                    La imagen más destacada, que fue presentada el lunes por el presidente Biden en la Casa Blanca,
+                    la visión más detallada del universo primitivo registrada hasta la fecha</p>
+                <a href="registro.html" class="boton">Mas Informacion</a>
+            </div>
+        </section>
+        <section class="galeria">
+            <div class="sesgoarriba"></div>
+            <div class="imagenes none">
+                <img src="./Img/1.png" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="./Img/3.jpg" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="./Img/2.png" alt="">
+                <div class="encima">
+                    <h2>James Webb</h2>
+                    <div></div>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="./Img/4.png" alt="">
+
+            </div>
+            <div class="imagenes none">
+                <img src="./Img/5.png" alt="">
+            </div>
+            <div class="sesgoabajo"></div>
+        </section>
+        <section class="miembros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Imagenes</h2>
+                <h3 class="slogan">Conoce algunas de las Imagenes</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./Img/3.jpg" alt="">
+                        <a href="./registro.html"><h4>James Webb</h4></a>
+                        <p>El telescopio infrarrojo.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/1.png" alt="">
+                        <a href="./registro.html"><h4>Júpiter</h4></a>
+                        <p>imágenes inéditas del planeta.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Img/5.png" alt="">
+                        <a href="./registro.html"><h4>Anillo sur</h4></a>
+                        <p>nebulosa del Anillo Sur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fondo">
+            <div class="sesgoarriba"></div>
+            <div class="contenedor">
+                <h2 class="titulo-patrocinadores">Exploracion</h2>
+                <h3 class="subtitulo-patrocinadores">Creacion | Diseño | Configuracion</h3>
+                <div class="clientes">
+                    <div class="cliente">
+                        <img src="./Img/logo.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="./Img/logo.png" alt="">
+                    </div>
+                    <div class="cliente">
+                        <img src="./Img/logo.png" alt="">
+                    </div>
+                </div>
+                <h3 class="subtitulo-patrocinadores especial">y muchos más clientes...</h3>
+            </div>
+            <div class="sesgoabajo-unico"></div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="contenedor" id="cont-contact">
+            <h2 class="titulo-footer">Contactanos</h2>
+            <h3 class="subtitulo-footer">Lo apreciariamos mucho</h3>
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                    <input type="submit" value="Enviar" id="boton1">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/index.js" defer></script>
+
+</body>
+
+</html>
